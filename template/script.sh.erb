@@ -1,0 +1,7 @@
+#!/bin/bash -l
+
+# Change working directory to user's home directory
+cd "${HOME}"
+
+# Start up desktop
+<%= session.staged_root.join("desktops", "#{context.desktop}.sh") %>
