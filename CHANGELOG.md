@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Fixed
+
+- Use desktop attribute value in ERB template instead of passing it
+  to the script as environment variable. This avoids running into problems
+  like with LSF, where when setting -L "bin/bash" for bsub arguments results
+  in the original environment being wiped. Also, it simplifies the code.
+
+
 ## [0.1.1] - 2017-07-12
 
 ### Changed

@@ -62,11 +62,11 @@ Again, you do not need to restart the app as it isn't a Passenger app.
 
 ## Template Specification
 
-### DESKTOP
+### Desktop
 
-This environment variable describes the desktop to load (e.g., `gnome`, `mate`,
-...). It will run the corresponding script that can be found in
-[template/desktops](template/desktops).
+The main script.sh will launch either gnome.sh or mate.sh in
+[template/desktops](template/desktops) based on the final value
+of the "desktop" attribute (default specified in form.yml).
 
 By default the Mate desktop is used when a Desktop session is launched.
 
