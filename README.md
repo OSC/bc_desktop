@@ -1,3 +1,5 @@
+## Moved to https://github.com/OSC/ondemand/tree/master/apps/bc_desktop
+
 # Batch Connect - Desktop
 
 ![GitHub Release](https://img.shields.io/github/release/osc/bc_desktop.svg)
